@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>tdd todo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="header__h1__title">ToDo App</h1>
+    </header>
+    <form id="add-todo" class="input__group">
+      <label class="form__label__description" for="description"
+        >Todo description</label
+      >
+      <br />
+      <input
+        type="text"
+        id="description"
+        name="description"
+        class="input__description"
+        placeholder="example : play football"
+      />
+      <button type="submit" class="form__button__addTodo">
+        <i class="fa fa-plus"> </i>
+        add todo
+      </button>
+      <br>
+      <button class="sort"></button>
+    </form>
+    <main>
+      <div id="todo-container" class="container">
+        <ul></ul>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript" src="./logic.js"></script>
+  <script type="text/javascript" src="./dom.js"></script>
+</html>

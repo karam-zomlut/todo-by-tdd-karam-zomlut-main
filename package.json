@@ -1,0 +1,22 @@
+{
+  "name": "todo-by-tdd-karam-zomlut",
+  "version": "1.0.0",
+  "description": "The aim for this project is to build a basic To-do app. This file will help you get started and give you an introduction to unit testing and TDD for client-side code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G11/todo-by-tdd-karam-zomlut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G11/todo-by-tdd-karam-zomlut/issues"
+  },
+  "homepage": "https://github.com/GSG-G11/todo-by-tdd-karam-zomlut#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
